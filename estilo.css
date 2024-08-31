@@ -1,0 +1,90 @@
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #4A90E2;
+    padding: 20px;
+    color: white;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Tahoma', sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 30px auto;
+    max-width: 900px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.linkfoto {
+    text-decoration: none;
+    color: #333;
+}
+
+.linkfoto img {
+    width: 70%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.linkfoto:hover img {
+    transform: scale(1.05);
+}
+
+.linkfoto p {
+    font-family: 'Verdana', sans-serif;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #E94E77;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
